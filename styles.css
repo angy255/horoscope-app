@@ -1,44 +1,38 @@
 *{
   box-sizing: border-box;
-    margin: 0;
-    padding:0;
-    background-color: aquamarine;
-    font-size: 35px;
-    padding: 20px;
-    margin-bottom: 10px;
+  margin: 0;
+  padding:0;
+  background-color: aquamarine;
+  font-size: 35px;
+  padding: 20px;
+  margin-bottom: 10px;
 }
 
 body{
   background-image: url('img/zodiac.jpg');
   height: 100vh;
-
 }
 
 #month{
   cursor: pointer;
-    background-color:white;
-    color: teal;
-
-
+  background-color:white;
+  color: teal;
 }
 
 #day{
   background-color: white;
   cursor: pointer;
   color: teal;
-
-
-
 }
+
+/* love the cursor:pointer feature...learned it from YT channel brocode */
 
 button{
   cursor: pointer;
-    background-color: rgb(0, 102, 255);
-    color: white;
-    font-weight: bold;
-    font-size: 45px;
-
-
+  background-color: rgb(0, 102, 255);
+  color: white;
+  font-weight: bold;
+  font-size: 45px;
 }
 
 p{

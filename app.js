@@ -6,7 +6,11 @@
 // day >= 31
 // return aries
 
+//comments above are my own...just brainstorming with an EIR how I wanted to approach writing the code to make sure it functions how it's meant to
 
+
+//this code below may look similar or exact to others because we worked at a table, group of approx 4 of us trying to get the code to behave the way we wanted
+//so we created one big function to adhere to specific dates and respond with specific zodiacs/innerText
 document.querySelector('button').addEventListener('click', birthday)
 
 function birthday(){
@@ -55,3 +59,7 @@ function birthday(){
 }
 
 // consider a drop down menu for the month and day look at code examples for that
+//this comment is me considering adding an input type=date since it turns out, this nifty elementcould replace the day and 
+// month input type we had created https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/date
+//however since we went through the time of creating the function above, I decided to keep what was already created
+// and just add this as a comment for potential future use
